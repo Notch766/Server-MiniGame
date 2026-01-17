@@ -28,6 +28,7 @@ int spin_wheel(void);
 int reveal_letter(GameState *g, char letter);;
 
 int main() {
+
     int server_fd;
     struct sockaddr_in address;
     int addrlen = sizeof(address);

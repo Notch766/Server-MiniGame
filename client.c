@@ -9,6 +9,7 @@
 #define PORT 4001
 
 int main(int argc, char* argv[]) {
+
     if (argc != 2) {
         printf("Usage: %s <server_ip>\n", argv[0]);
         return EXIT_FAILURE;
